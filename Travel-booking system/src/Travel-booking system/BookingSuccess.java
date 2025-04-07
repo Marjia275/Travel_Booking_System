@@ -101,7 +101,7 @@ public class BookingSuccess extends JFrame {
             imagel.add(numPeopleLabel);
             
             
-            JLabel numRoomsLabel = new JLabel("Number of Rooms: " + numRooms);
+            JLabel numRoomsLabel = new JLabel("Number of Rooms and types: " + numRooms);
             numRoomsLabel.setFont(new Font("Arial", Font.BOLD, 15));
             numRoomsLabel.setBounds(280, yPosition, 550, 30);
             imagel.add(numRoomsLabel);
